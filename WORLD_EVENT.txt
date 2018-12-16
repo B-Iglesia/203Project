@@ -1,0 +1,25 @@
+1.Clicking anywhere on the map will cause a nuke to spawn at a random Y-location which will fall and explode on the nearest blacksmith (which has been replaced with a "Nuclear Reactor."
+The area around where the mouse has clicked will also cause a radiation zone to appear.
+
+2.When the nuke lands, an explosion (Fireball Entity) will appear destroying anything caught within its blast. In the wake of the explosion, the background will change
+to either a Smoulder or a new FiendSpawner entity will spawn. These entities will now spawn new Egg entities which hatch into demons which actively hunt down all miners.
+Once all miners are gone, they will hunt down the SuperMiners
+
+As for the radiation zones, any miner's that are directly in the radiation zone when it intially appears will be transformed into SuperMiners with new activity
+
+3.Blobs are effectively out of the world
+Once transformed, SuperMiners will actively hunt down and kill demons as they spawn into the world.
+
+4. The new entities are:
+Nuke,
+Fireball,
+FiendSpawner,
+Egg,
+Demon
+
+Nuke: Nukes, when spawned will go to the nearest reactor (blacksmith) and explode spawning multiple Fireball entities.
+Fireball: Fireballs are just like quakes. They destroy any entities that are in the square that they spawn in, and they change the background to a smoulder or spawn a 
+fiend spawner upon despawning.
+FiendSpawner: Spawners act just as veins do. They have a 20% chance of spawning from a Fireball and spawn eggs around themselves. These eggs hatch into demons
+Egg: Just as an ore, except miners do not pick these up. After a certain amount of time, a demon will spawn.
+Demon: Demons actively hunt down all miners until all normal miners (MinerFull and Miner_Not_Full) are gone. Once this happens, they will hunt down all of the SuperMiners.
